@@ -14,10 +14,8 @@ if len(s)>=8:
             n_count+=1
         else:
             s_count+=1
-    if u_count>=2 and l_count>=2 and s_count>=1 and n_count>=1:
-        print("valid password")
-    else:
-        print("Invalid password")
+    reslut= "valid password" if u_count>=2 and l_count>=2 and s_count>=1 and n_count>=1  else "Invalid password"
+    print(reslut)
 else:
     print("Invalid password, check the length of the password")
 
