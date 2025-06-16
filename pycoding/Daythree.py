@@ -1,11 +1,11 @@
-s="@SuryA123"
+p="@SuryA123"
 u_count=0
 l_count=0
 s_count=0
 n_count=0
 
-if len(s)>=8:
-    for i in s:
+if len(p)>=8:
+    for i in p:
         if "A"<=i<="Z":
             u_count+=1
         elif "a"<=i<="z":
